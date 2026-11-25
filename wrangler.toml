@@ -2,6 +2,26 @@ name = "sub-72-assessment"
 main = "index.js"
 compatibility_date = "2026-11-25"
 
+{
+  // ...
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": false,
+      "head_sampling_rate": 1,
+      "persist": true
+    },
+    "issue_detection": {
+      "enabled": false
+    }
+  },
+  // ...
+}
 # Configure these as Worker secrets/variables in Cloudflare:
 # Secrets:
 #   SUPABASE_SERVICE_ROLE_KEY
