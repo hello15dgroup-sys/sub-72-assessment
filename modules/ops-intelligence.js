@@ -1,4 +1,4 @@
-const MODEL = 'gemini 3.5 Flash-Lite';
+const MODEL = 'gemini-3.5-flash-lite';
 const INTERACTIONS_URL = 'https://generativelanguage.googleapis.com/v1beta/interactions';
 const EVIDENCE_STATUSES = [
   'VERIFIED', 'PARTIALLY_VERIFIED', 'UNVERIFIED', 'CONFLICTING', 'STALE', 'UNKNOWN', 'NOT_APPLICABLE',
