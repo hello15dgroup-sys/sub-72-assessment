@@ -1,0 +1,22 @@
+name = "sub-72-assessment"
+main = "index.js"
+compatibility_date = "2026-11-25"
+
+# Configure these as Worker secrets/variables in Cloudflare:
+# Secrets:
+#   SUPABASE_SERVICE_ROLE_KEY
+#   Gemini_API_key
+#   COMMS_DISPATCH_TOKEN (only if using HTTP fallback)
+# Variables:
+#   SUPABASE_URL=https://mhplukffgcxiorpfunyy.supabase.co
+#   AIRFIELDS_WORKER_URL (only if no service binding is configured)
+#   COMMS_DISPATCH_URL (optional; defaults to https://noreply.15d.name.ng/dispatch-email)
+#   ALLOWED_ORIGINS=https://your-sub72-frontend.example
+#   SUB72_LANE_A_FEE_AMOUNT=<250>
+#   SUB72_LANE_B_FEE_AMOUNT=<160>
+#   SUB72_FEE_CURRENCY=USD
+#   SUB72_PAYMENT_URL=<your payment route, if already implemented>
+#
+# Service bindings to configure in Cloudflare:
+#   AIRFIELDS_WORKER -> existing AIRFIELDS Worker
+#   noreply-wings    -> existing Comms Worker
